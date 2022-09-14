@@ -1,0 +1,33 @@
+default:
+  image: node:14.15-alpine
+
+stages:
+  - initialization
+  - validation
+  - deploy
+
+download-dependencies:
+  stage: initialization
+  extends: default
+  except:
+    - /^prepare_version_.*$/
+    - /do_deploy_dev/
+    - /do_deploy_fe/
+    - /do_deploy-prod/
+  artifacts:
+    paths:
+      - node_modules
+  script:
+    npm ci
+
+lint-job:
+  stage: validation
+  extends: download-dependencies
+  except:
+    - tags
+    - /^prepare_version_.*$/
+    - /do_deploy_dev/
+    - /do_deploy_fe/
+    - /do_deploy-prod/
+  script:
+    - npm run lint

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+<<<<<<< HEAD
+      <module fileurl="file://$PROJECT_DIR$/.idea/mitbibli.iml" filepath="$PROJECT_DIR$/.idea/mitbibli.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/backend/MITProject/.mvn/.mvn.iml" filepath="$PROJECT_DIR$/backend/MITProject/.mvn/.mvn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/MITProject/src/main/main.iml" filepath="$PROJECT_DIR$/backend/MITProject/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend/MITProject/src/test/test.iml" filepath="$PROJECT_DIR$/backend/MITProject/src/test/test.iml" />
+>>>>>>> db942236e4af3af180a2cf094a29b7da47886ef0
+    </modules>
+  </component>
+</project>

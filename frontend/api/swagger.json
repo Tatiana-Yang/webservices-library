@@ -1,0 +1,22 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Express API MIT-Blibli",
+    "version": "1.0.0",
+    "description": "Routes list defining the API REST of MIT-Blibli.",
+    "license": {
+      "name": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html"
+    },
+    "contact": {
+      "name": "Mathilde LERAY - apprentie ingénieure",
+      "email": "leray.mathilde@ecole.ensicaen.fr"
+    }
+  },
+  "servers": [
+    {
+      "url": "http://localhost:8080",
+      "description": "Derveur de développement"
+    }
+  ]
+}
